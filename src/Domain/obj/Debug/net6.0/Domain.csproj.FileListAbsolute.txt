@@ -1,0 +1,72 @@
+C:\Users\jlcar\codes\im\222\project\src\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\jlcar\codes\im\222\project\src\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\jlcar\codes\im\222\project\src\Domain\bin\Debug\net6.0\ref\Domain.dll
+C:\Users\jlcar\codes\im\222\project\src\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\jlcar\codes\im\222\project\src\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\jlcar\codes\im\222\project\src\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jlcar\codes\im\222\project\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\jlcar\codes\im\222\project\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\jlcar\codes\im\222\project\src\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\jlcar\codes\im\222\project\src\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\jlcar\codes\im\222\project\src\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\jlcar\codes\im\222\project\src\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\jlcar\unitec\222\im\project\src\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\jlcar\unitec\222\im\project\src\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\jlcar\unitec\222\im\project\src\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\jlcar\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\jlcar\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jlcar\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\jlcar\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\jlcar\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\jlcar\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\jlcar\unitec\222\im\project\src\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\jlcar\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\jlcar\unitec\222\im\project\src\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\unitec\222\im\project\src\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\unitec\222\im\project\src\Domain\bin\Debug\net6.0\Domain.dll
+D:\unitec\222\im\project\src\Domain\bin\Debug\net6.0\Domain.pdb
+D:\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.dll
+D:\unitec\222\im\project\src\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\unitec\222\im\project\src\Domain\obj\Debug\net6.0\Domain.pdb
+D:\unitec\222\im\project\src\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\unitec\223\im\project\src\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\unitec\223\im\project\src\Domain\bin\Debug\net6.0\Domain.dll
+D:\unitec\223\im\project\src\Domain\bin\Debug\net6.0\Domain.pdb
+D:\unitec\223\im\project\src\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\unitec\223\im\project\src\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\unitec\223\im\project\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\unitec\223\im\project\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\unitec\223\im\project\src\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\unitec\223\im\project\src\Domain\obj\Debug\net6.0\Domain.dll
+D:\unitec\223\im\project\src\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\unitec\223\im\project\src\Domain\obj\Debug\net6.0\Domain.pdb
+D:\unitec\223\im\project\src\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\jlcar\OneDrive - Laureate Mexico\IM\Proyecto\Final\project\src\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\jlcar\OneDrive - Laureate Mexico\IM\Proyecto\Final\project\src\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\jlcar\OneDrive - Laureate Mexico\IM\Proyecto\Final\project\src\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\jlcar\OneDrive - Laureate Mexico\IM\Proyecto\Final\project\src\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\jlcar\OneDrive - Laureate Mexico\IM\Proyecto\Final\project\src\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jlcar\OneDrive - Laureate Mexico\IM\Proyecto\Final\project\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\jlcar\OneDrive - Laureate Mexico\IM\Proyecto\Final\project\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\jlcar\OneDrive - Laureate Mexico\IM\Proyecto\Final\project\src\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\jlcar\OneDrive - Laureate Mexico\IM\Proyecto\Final\project\src\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\jlcar\OneDrive - Laureate Mexico\IM\Proyecto\Final\project\src\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\jlcar\OneDrive - Laureate Mexico\IM\Proyecto\Final\project\src\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\jlcar\OneDrive - Laureate Mexico\IM\Proyecto\Final\project\src\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\IMMAN\project\src\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\IMMAN\project\src\Domain\bin\Debug\net6.0\Domain.dll
+D:\IMMAN\project\src\Domain\bin\Debug\net6.0\Domain.pdb
+D:\IMMAN\project\src\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\IMMAN\project\src\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\IMMAN\project\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\IMMAN\project\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\IMMAN\project\src\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\IMMAN\project\src\Domain\obj\Debug\net6.0\Domain.dll
+D:\IMMAN\project\src\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\IMMAN\project\src\Domain\obj\Debug\net6.0\Domain.pdb
+D:\IMMAN\project\src\Domain\obj\Debug\net6.0\ref\Domain.dll
