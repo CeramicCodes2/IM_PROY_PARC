@@ -13,8 +13,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\IMMAN\\project\\src\\Presentation.WebApp\\wwwroot\\images\\grim-nbc.png",
+      "PackagePath": "staticwebassets\\images\\grim-nbc.png"
+    },
+    {
+      "Id": "D:\\IMMAN\\project\\src\\Presentation.WebApp\\wwwroot\\images\\grimorios.png",
+      "PackagePath": "staticwebassets\\images\\grimorios.png"
+    },
+    {
+      "Id": "D:\\IMMAN\\project\\src\\Presentation.WebApp\\wwwroot\\images\\other-nbc.png",
+      "PackagePath": "staticwebassets\\images\\other-nbc.png"
+    },
+    {
       "Id": "D:\\IMMAN\\project\\src\\Presentation.WebApp\\wwwroot\\images\\placeholder.svg",
       "PackagePath": "staticwebassets\\images\\placeholder.svg"
+    },
+    {
+      "Id": "D:\\IMMAN\\project\\src\\Presentation.WebApp\\wwwroot\\images\\tienda-logo.png",
+      "PackagePath": "staticwebassets\\images\\tienda-logo.png"
+    },
+    {
+      "Id": "D:\\IMMAN\\project\\src\\Presentation.WebApp\\wwwroot\\images\\tl-nbc.png",
+      "PackagePath": "staticwebassets\\images\\tl-nbc.png"
     },
     {
       "Id": "D:\\IMMAN\\project\\src\\Presentation.WebApp\\wwwroot\\images\\user.svg",

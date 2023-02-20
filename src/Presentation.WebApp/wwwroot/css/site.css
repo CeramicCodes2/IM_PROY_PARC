@@ -2,6 +2,9 @@
 /* text*/
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 /* title*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* title 2 code*/
+
 html {
   font-size: 14px;
 }
@@ -16,11 +19,15 @@ html {
   position: relative;
   min-height: 100%;
 }
-
 body {
   margin-bottom: 60px;
   background-color: black;
   color:white;
+}
+.titleCode{
+  font-family: 'Press Start 2P', cursive;
+  font-size: calc(2.375rem + 1.5vw);
+  color:rgb(6, 161, 6);
 }
 .textGothic{
   /*text*/
@@ -28,6 +35,12 @@ body {
 }
 .titleGothic{
   font-family: 'Pirata One', cursive;
+  color:#8c8989;
+}
+div.h1PageTitle{
+  background-color:#111010;
+  border-radius: 20px;
+  border: 2px solid green;
 }
 div.panelStyle  a{
   text-decoration: none;
