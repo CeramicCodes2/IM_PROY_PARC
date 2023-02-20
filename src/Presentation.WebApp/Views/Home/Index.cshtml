@@ -78,22 +78,23 @@
 
 <script type='text/javascript'>
   $(document).ready(
-    function carrouselStart(){
+    ()=>{
     $('.carousel').carousel();// inciamos el carrusel
-    $('#carousel1').carousel(
+      $('#carousel1').carousel(
       {
         interval:5000// 5 minutos
       }
-    );
+      );
     $('#carousel2').carousel(
       {
                 interval:2000// 2 minutos
       }
     )
-    $('#carousel3').carousel{
+    $('#carousel3').carousel(
+      {
               interval:1000// 5 minutos
-    }
+    })
     $('.carousel').carousel('cycle');// le indicamos que sea ciclico
     }
-    )
+  )
 </script>
