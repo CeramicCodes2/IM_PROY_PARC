@@ -27,7 +27,7 @@
 <div class="container-fluid">
 <div class="row justify-content-md-center fs-1 text-center panelStyle">
   <div class="col-sm-4">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carousel1" class="carousel slide" data-ride="carousel"  data-interval='1000'>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <a class="col-xl-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="https://imgs.search.brave.com/xl4NjI9B7x3Qw5R0SyT_wxCog2VOB5MGj_o9K-Uj1Xg/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vdmVjdG9y/cy9vY2N1bHQtc25h/a2UtcG9zdGVyLXZl/Y3Rvci1pZDExNjM1/MjA3OTk_az02Jm09/MTE2MzUyMDc5OSZz/PTYxMng2MTImdz0w/Jmg9TWR5SmpkaFVl/bFlhbVQ4SkpwVWpr/S2NqMW5td2VDbnFf/UTNsckFTSHNtaz0" alt="First slide"></a>
@@ -43,7 +43,7 @@
   </div>
 
   <div class="col-sm-4">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carousel2" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <a class="col-xl-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="https://imgs.search.brave.com/xl4NjI9B7x3Qw5R0SyT_wxCog2VOB5MGj_o9K-Uj1Xg/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vdmVjdG9y/cy9vY2N1bHQtc25h/a2UtcG9zdGVyLXZl/Y3Rvci1pZDExNjM1/MjA3OTk_az02Jm09/MTE2MzUyMDc5OSZz/PTYxMng2MTImdz0w/Jmg9TWR5SmpkaFVl/bFlhbVQ4SkpwVWpr/S2NqMW5td2VDbnFf/UTNsckFTSHNtaz0" alt="First slide"></a>
@@ -59,7 +59,7 @@
     </div>
   </div>
   <div class="col-sm-4">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carousel3" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <a class="col-xl-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="https://imgs.search.brave.com/xl4NjI9B7x3Qw5R0SyT_wxCog2VOB5MGj_o9K-Uj1Xg/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vdmVjdG9y/cy9vY2N1bHQtc25h/a2UtcG9zdGVyLXZl/Y3Rvci1pZDExNjM1/MjA3OTk_az02Jm09/MTE2MzUyMDc5OSZz/PTYxMng2MTImdz0w/Jmg9TWR5SmpkaFVl/bFlhbVQ4SkpwVWpr/S2NqMW5td2VDbnFf/UTNsckFTSHNtaz0" alt="First slide"></a>
@@ -75,3 +75,25 @@
   </div>
 </div>
 </div>
+
+<script type='text/javascript'>
+  $(document).ready(
+    function carrouselStart(){
+    $('.carousel').carousel();// inciamos el carrusel
+    $('#carousel1').carousel(
+      {
+        interval:5000// 5 minutos
+      }
+    );
+    $('#carousel2').carousel(
+      {
+                interval:2000// 2 minutos
+      }
+    )
+    $('#carousel3').carousel{
+              interval:1000// 5 minutos
+    }
+    $('.carousel').carousel('cycle');// le indicamos que sea ciclico
+    }
+    )
+</script>
