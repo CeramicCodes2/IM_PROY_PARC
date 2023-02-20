@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+/* text*/
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+/* title*/
 html {
   font-size: 14px;
 }
@@ -15,4 +19,32 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: black;
+  color:white;
+}
+.textGothic{
+  /*text*/
+  font-family: 'Londrina Shadow', cursive;
+}
+.titleGothic{
+  font-family: 'Pirata One', cursive;
+}
+div.panelStyle  a{
+  text-decoration: none;
+  color:aliceblue;
+}
+div.panelStyle img{
+  object-fit: cover;
+  height: 8.5em;
+  display: fixed;
+}
+div.panelStyle > a.col-xl-4:hover{
+  background-color: #242323;
+  border-radius: 15px;
+  box-shadow: 0px 3px 15px #242424;
+  user-select: none;
+
+}
+div.h1{
+  font-size: calc(5.375rem + 1.5vw);
 }
