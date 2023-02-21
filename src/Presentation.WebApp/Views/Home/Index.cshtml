@@ -1,5 +1,7 @@
 ﻿@{
     ViewData["Title"] = "UNITEC SUR";
+    var imagePath = @"images\grim-nbc.png";
+    var ico = @"images\tl-nbc.png";
 }
 <style>
     div.buttons{
@@ -8,8 +10,7 @@
 </style>
 <div class="h1 titleGothic text-center h1PageTitle">
     grimory <h1 class="h1 titleCode" style='display:inline'>code<h1>
-    <img src='..\..\wwwroot\images\tl-nbc.png'>
-    ""
+    <img src="@imagePath" class="img" style="width:calc();">
 </div><!--
 <div class='container-fluid'>
     <div class="row justify-content-md-center textGothic fs-1 text-center panelStyle">
@@ -29,7 +30,7 @@
 <div class="container-fluid mt-5">
 <div class="row justify-content-md-center fs-1 text-center panelStyle">
   <div class="col-sm-4">
-    <div id="carousel1" class="carousel slide" data-ride="carousel"  data-interval='1000'>
+    <div id="carousel1" class="carousel slide mt-5" data-ride="carousel"  data-interval='1000'>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <a class="col-xl-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="https://imgs.search.brave.com/xl4NjI9B7x3Qw5R0SyT_wxCog2VOB5MGj_o9K-Uj1Xg/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vdmVjdG9y/cy9vY2N1bHQtc25h/a2UtcG9zdGVyLXZl/Y3Rvci1pZDExNjM1/MjA3OTk_az02Jm09/MTE2MzUyMDc5OSZz/PTYxMng2MTImdz0w/Jmg9TWR5SmpkaFVl/bFlhbVQ4SkpwVWpr/S2NqMW5td2VDbnFf/UTNsckFTSHNtaz0" alt="First slide"></a>
@@ -45,32 +46,43 @@
   </div>
 
   <div class="col-sm-4">
-    <div id="carousel2" class="carousel slide" data-ride="carousel">
+    <div id="carousel2" class="carousel slide mt-5" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <a class="col-xl-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="https://imgs.search.brave.com/xl4NjI9B7x3Qw5R0SyT_wxCog2VOB5MGj_o9K-Uj1Xg/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vdmVjdG9y/cy9vY2N1bHQtc25h/a2UtcG9zdGVyLXZl/Y3Rvci1pZDExNjM1/MjA3OTk_az02Jm09/MTE2MzUyMDc5OSZz/PTYxMng2MTImdz0w/Jmg9TWR5SmpkaFVl/bFlhbVQ4SkpwVWpr/S2NqMW5td2VDbnFf/UTNsckFTSHNtaz0" alt="First slide"></a>
+          <a class="col-xl-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="https://imgs.search.brave.com/xl4NjI9B7x3Qw5R0SyT_wxCog2VOB5MGj_o9K-Uj1Xg/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vdmVjdG9y/cy9vY2N1bHQtc25h/a2UtcG9zdGVyLXZl/Y3Rvci1pZDExNjM1/MjA3OTk_az02Jm09/MTE2MzUyMDc5OSZz/PTYxMng2MTImdz0w/Jmg9TWR5SmpkaFVl/bFlhbVQ4SkpwVWpr/S2NqMW5td2VDbnFf/UTNsckFTSHNtaz0" alt="First slide">
+            <h2 class="h2 carouselHeader">tag21</h2>
+          </a>
         </div>
         <div class="carousel-item">
-          <a class="col-xl-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="https://imgs.search.brave.com/Fev-Jt00jX9DawiM1Xr13n2QXW7CfJQIscTVMh2PEjw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2QyL2E3/LzA2L2QyYTcwNjk3/Y2VmYmE1ZWE0ODY4/MjZkNDZhMjQ5OTI3/LmpwZw" alt=" slide"></a>
+          <a class="col-xl-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="https://imgs.search.brave.com/Fev-Jt00jX9DawiM1Xr13n2QXW7CfJQIscTVMh2PEjw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2QyL2E3/LzA2L2QyYTcwNjk3/Y2VmYmE1ZWE0ODY4/MjZkNDZhMjQ5OTI3/LmpwZw" alt=" slide">
+            <h2 class="h2 carouselHeader">tag2</h2>
+          </a>
         </div>
         <div class="carousel-item">
-
-    <a class="col-sm-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="..." alt="First slide"></a>
+          <a class="col-sm-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="..." alt="First slide">
+            <h2 class="h2 carouselHeader">tag3</h2>
+          </a>
         </div>
       </div>
     </div>
   </div>
   <div class="col-sm-4">
-    <div id="carousel3" class="carousel slide" data-ride="carousel">
+    <div id="carousel3" class="carousel slide mt-5" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <a class="col-xl-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="https://imgs.search.brave.com/xl4NjI9B7x3Qw5R0SyT_wxCog2VOB5MGj_o9K-Uj1Xg/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vdmVjdG9y/cy9vY2N1bHQtc25h/a2UtcG9zdGVyLXZl/Y3Rvci1pZDExNjM1/MjA3OTk_az02Jm09/MTE2MzUyMDc5OSZz/PTYxMng2MTImdz0w/Jmg9TWR5SmpkaFVl/bFlhbVQ4SkpwVWpr/S2NqMW5td2VDbnFf/UTNsckFTSHNtaz0" alt="First slide"></a>
+          <a class="col-xl-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="https://imgs.search.brave.com/xl4NjI9B7x3Qw5R0SyT_wxCog2VOB5MGj_o9K-Uj1Xg/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vdmVjdG9y/cy9vY2N1bHQtc25h/a2UtcG9zdGVyLXZl/Y3Rvci1pZDExNjM1/MjA3OTk_az02Jm09/MTE2MzUyMDc5OSZz/PTYxMng2MTImdz0w/Jmg9TWR5SmpkaFVl/bFlhbVQ4SkpwVWpr/S2NqMW5td2VDbnFf/UTNsckFTSHNtaz0" alt="First slide">
+            <h2 class="h2 carouselHeader">tag1</h2>
+          </a>
         </div>
         <div class="carousel-item">
-          <a class="col-xl-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="https://imgs.search.brave.com/Fev-Jt00jX9DawiM1Xr13n2QXW7CfJQIscTVMh2PEjw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2QyL2E3/LzA2L2QyYTcwNjk3/Y2VmYmE1ZWE0ODY4/MjZkNDZhMjQ5OTI3/LmpwZw" alt=" slide"></a>
+          <a class="col-xl-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="https://imgs.search.brave.com/Fev-Jt00jX9DawiM1Xr13n2QXW7CfJQIscTVMh2PEjw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2QyL2E3/LzA2L2QyYTcwNjk3/Y2VmYmE1ZWE0ODY4/MjZkNDZhMjQ5OTI3/LmpwZw" alt=" slide">
+            <h2 class="h2 carouselHeader">tag2</h2>
+          </a>
         </div>
         <div class="carousel-item">
-    <a class="col-sm-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="..." alt="First slide"></a>
+          <a class="col-sm-4 titleGothic" asp-controller="Home" asp-action="Search"><img class="d-block w-100" src="..." alt="First slide">
+            <h2 class="h2 carouselHeader">tag3</h2>
+          </a>
         </div>
       </div>
     </div>
@@ -78,8 +90,59 @@
 </div>
 </div>
 
-<div class="textGothic h-3">
-    gracias a dios que visito nuestra pagina !
+<div class="container-fluid row card-columns mt-5 justify-content-around">
+
+    <div class="card bg-dark mt-5 mb-5" style="width: 18rem;">
+      <img class="card-img-top" src="@ico" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">empleados</h5>
+        <p class="card-text">conoce algunos de nuestros empleados (CRUD EMPLEADOS)</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">CREAR</li>
+        <li class="list-group-item">LEER</li>
+        <li class="list-group-item">ACTUALIZAR</li>   
+        <li class="list-group-item">ELIMINAR</li>
+      </ul>
+      <div class="card-body">
+        <a asp-controller="Empleados" class="card-link">Card link</a>
+      </div>
+    </div>
+    <!--  card 2 --->
+    <div class="card  bg-dark mt-5 mb-5" style="width: 18rem;">
+      <img class="card-img-top" src="@ico" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">productos</h5>
+        <p class="card-text">conoce algunos de nuestros empleados (CRUD EMPLEADOS)</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">CREAR</li>
+        <li class="list-group-item">LEER</li>
+        <li class="list-group-item">ACTUALIZAR</li>   
+        <li class="list-group-item">ELIMINAR</li>
+      </ul>
+      <div class="card-body">
+        <a asp-controller="Productos" class="card-link">Card link</a>
+      </div>
+    </div>
+    <!--  card 3 --->
+    <div class="card  bg-dark mt-5 mb-5" style="width: 18rem;">
+      <img class="card-img-top" src="@ico" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">clientes</h5>
+        <p class="card-text">conoce algunos de nuestros empleados (CRUD EMPLEADOS)</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">CREAR</li>
+        <li class="list-group-item">LEER</li>
+        <li class="list-group-item">ACTUALIZAR</li>   
+        <li class="list-group-item">ELIMINAR</li>
+      </ul>
+      <div class="card-body">
+        <a asp-controller="Clientes" class="card-link">Card link</a>
+      </div>
+    </div>
+
 </div>
 <script type='text/javascript'>
   $(document).ready(
