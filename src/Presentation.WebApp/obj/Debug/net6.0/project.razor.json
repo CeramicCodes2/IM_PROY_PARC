@@ -18414,6 +18414,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\IMMAN\\project\\src\\Presentation.WebApp\\Views\\Clientes\\index.cshtml",
+      "TargetPath": "Views\\Clientes\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\IMMAN\\project\\src\\Presentation.WebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
       "FileKind": "mvc"
@@ -18431,6 +18436,11 @@
     {
       "FilePath": "d:\\IMMAN\\project\\src\\Presentation.WebApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\IMMAN\\project\\src\\Presentation.WebApp\\Views\\Clientes\\Create.cshtml",
+      "TargetPath": "Views\\Clientes\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18454,6 +18464,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\IMMAN\\project\\src\\Presentation.WebApp\\Views\\Productos\\create.cshtml",
+      "TargetPath": "Views\\Productos\\create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\IMMAN\\project\\src\\Presentation.WebApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
       "FileKind": "mvc"
@@ -18461,6 +18476,11 @@
     {
       "FilePath": "d:\\IMMAN\\project\\src\\Presentation.WebApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\IMMAN\\project\\src\\Presentation.WebApp\\Views\\Ventas\\index.cshtml",
+      "TargetPath": "Views\\Ventas\\index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18486,6 +18506,11 @@
     {
       "FilePath": "d:\\IMMAN\\project\\src\\Presentation.WebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\IMMAN\\project\\src\\Presentation.WebApp\\Views\\Productos\\index.cshtml",
+      "TargetPath": "Views\\Productos\\index.cshtml",
       "FileKind": "mvc"
     },
     {
