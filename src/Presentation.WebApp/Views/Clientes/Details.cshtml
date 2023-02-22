@@ -1,0 +1,40 @@
+@{ ViewData["Title"] = "Cliente > Detalle"; }
+
+@model Cliente
+
+<h1>Detalles sobre el usuario: @Model.Nombre</h1>
+
+<div class='container'>
+<form asp-action="Create" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="Nombre">Nombre:</label>
+    <input readonly type="text" class="form-control" required id="Nombre" aria-describedby="Nombre" placeholder="@Model.Id">
+
+    <small id="Nombre" class="form-text">nombres</small>
+  </div>
+  <div class="form-group">
+    <label for="Nombre">Nombre:</label>
+    <input readonly type="text" class="form-control" required id="Nombre" aria-describedby="Nombre" placeholder="@Model.Nombre">
+
+    <small id="Nombre" class="form-text">nombres</small>
+  </div>
+  <div class="form-group">
+    <label for="Direccion">Direccion:</label>
+    <input readonly type="text" required class="form-control" id="Direccion" aria-describedby="Direccion" placeholder="@Model.Direccion">
+    <small id="Direccion" class="form-text">direccion como ejido edandial</small>
+  </div>
+  <div class="form-group">
+    <label for="Telefono">Telefono:</label>
+    <input readonly type="text" required class="form-control" id="Telefono" aria-describedby="Telefono" placeholder="@Model.Telefono">
+    <small id="Telefono" class="form-text">como 551033293</small>
+  </div>
+  <div class="form-group">
+    <label for="Correo">Correo:</label>
+    <input readonly type="text" required class="form-control" id="Direccion" aria-describedby="Correo" placeholder="@Model.Correo">
+    <small id="Telefono" class="form-text">direccion como ejido edandial</small>
+  </div>
+  <button  asp-action="Index" type="submit" class="btn btn-primary">Hecho</button>
+  <!--<button class="btn btn-warning" asp-action="Index">Cancelar</button>
+    -->
+</form>
+</div>
