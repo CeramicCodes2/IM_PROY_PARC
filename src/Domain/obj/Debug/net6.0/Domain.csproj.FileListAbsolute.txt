@@ -82,3 +82,15 @@ C:\Users\ispi2\projects\IMPLANTACION_Y_MANTENIMIENTO\IMPROYBIM\IM_PROY_PARC\src\
 C:\Users\ispi2\projects\IMPLANTACION_Y_MANTENIMIENTO\IMPROYBIM\IM_PROY_PARC\src\Domain\obj\Debug\net6.0\refint\Domain.dll
 C:\Users\ispi2\projects\IMPLANTACION_Y_MANTENIMIENTO\IMPROYBIM\IM_PROY_PARC\src\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\ispi2\projects\IMPLANTACION_Y_MANTENIMIENTO\IMPROYBIM\IM_PROY_PARC\src\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\IMMAN\IM_PROY_PARC\src\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\IMMAN\IM_PROY_PARC\src\Domain\bin\Debug\net6.0\Domain.dll
+D:\IMMAN\IM_PROY_PARC\src\Domain\bin\Debug\net6.0\Domain.pdb
+D:\IMMAN\IM_PROY_PARC\src\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\IMMAN\IM_PROY_PARC\src\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\IMMAN\IM_PROY_PARC\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\IMMAN\IM_PROY_PARC\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\IMMAN\IM_PROY_PARC\src\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\IMMAN\IM_PROY_PARC\src\Domain\obj\Debug\net6.0\Domain.dll
+D:\IMMAN\IM_PROY_PARC\src\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\IMMAN\IM_PROY_PARC\src\Domain\obj\Debug\net6.0\Domain.pdb
+D:\IMMAN\IM_PROY_PARC\src\Domain\obj\Debug\net6.0\ref\Domain.dll

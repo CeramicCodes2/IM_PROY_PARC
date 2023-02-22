@@ -1,13 +1,7 @@
 @{ ViewData["Title"] = "Clientes"; }
 
 @model List<Cliente>
-
-<p>
-  <a class="btn btn-primary" asp-action="Create" role="button">
-    crear nuevo cliente
-  </a>
-</p>
-
+<div class='container'>
 <table class="table table-striped table-dark">
     <tr>
         <th scope="col">Id</th>
@@ -27,3 +21,11 @@
         </tr>
     }
 </table>
+</div>
+<div class="container justify-items-center">
+<p>
+  <a class="btn btn-primary" asp-action="Create" role="button">
+    crear nuevo cliente
+  </a>
+</p>
+</div>

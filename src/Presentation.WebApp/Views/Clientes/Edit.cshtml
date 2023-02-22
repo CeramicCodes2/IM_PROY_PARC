@@ -2,47 +2,53 @@
     ViewData["Title"] = "Empleados > Crear";
 }
 @model Cliente
+<script>
+
+  function editButtonOn(element){
+    var em = document.getElementById(element)
+    em.removeAttribute("readonly");
+    em.setAttribute('');// agrega el atributo para que no coloquen valores vacios
+    }
+</script>
 <!--
     ()=>{
         document.getElementById("#Nombre").setAttribute("readonly",null);
         }'-->
-<h1>Detalles sobre el usuario: @Model.Nombre</h1>
-<script>
-        function editElement(element){
-          document.getElementById(element).removeAttribute('readonly');//setAttribute("readonly","false");
-        //alert(element);
-        }
-</script>
 <div class='container'>
-<form asp-action="Create" enctype="multipart/form-data">
+<h1 class="h1" >Detalles sobre el usuario: </br> @Model.Nombre</h1>
+<form asp-action="Edit" enctype="multipart/form-data">
   <div class="form-group">
-    <label for="Nombre">Nombre:</label>
-    <input readonly type="text" class="form-control" required id="Nombre" aria-describedby="Nombre" placeholder="@Model.Id">
-    <button class="btn btn-warning" type='button' onclick='editElement("#Nombre")'>Editar</button>
-    <small id="Nombre" class="form-text">nombres</small>
+    <label for="Id">ID:</label>
+    <input readonly asp-for="Id" type="text" class="form-control"  id="Id" aria-describedby="Id" placeholder="@Model.Id">
+    <small id="usrId" class="form-text">id del usuario</small>
   </div>
   <div class="form-group">
     <label for="Nombre">Nombre:</label>
-    <input readonly type="text" class="form-control" required id="Nombre" aria-describedby="Nombre" placeholder="@Model.Nombre">
-
-    <small id="Nombre" class="form-text">nombres</small>
+    <input readonly asp-for="Nombre" type="text" class="form-control"  id="Nombre" aria-describedby="Nombre" placeholder="@Model.Nombre">
+    <small id="nomNombre" class="form-text">nombres</small>
+    <button class="btn btn-warning" type='button' onclick='editButtonOn("Nombre")'>Editar</button>
   </div>
   <div class="form-group">
     <label for="Direccion">Direccion:</label>
-    <input readonly type="text" required class="form-control" id="Direccion" aria-describedby="Direccion" placeholder="@Model.Direccion">
-    <small id="Direccion" class="form-text">direccion como ejido edandial</small>
+    <input readonly asp-for="Direccion" type="text"  class="form-control" id="Direccion" aria-describedby="Direccion" placeholder="@Model.Direccion">
+    <small id="dDireccion" class="form-text">direccion como ejido edandial</small>
+    <button class="btn btn-warning" type='button' onclick='editButtonOn("Direccion")'>Editar</button>
+
   </div>
   <div class="form-group">
     <label for="Telefono">Telefono:</label>
-    <input readonly type="text" required class="form-control" id="Telefono" aria-describedby="Telefono" placeholder="@Model.Telefono">
-    <small id="Telefono" class="form-text">como 551033293</small>
+    <input readonly asp-for="Telefono" type="text"  class="form-control" id="Telefono" aria-describedby="Telefono" placeholder="@Model.Telefono">
+    <small id="dTelefono" class="form-text">como 551033293</small>
+    <button class="btn btn-warning" type='button' onclick='editButtonOn("Telefono")'>Editar</button>
   </div>
   <div class="form-group">
     <label for="Correo">Correo:</label>
-    <input readonly type="text" required class="form-control" id="Direccion" aria-describedby="Correo" placeholder="@Model.Correo">
-    <small id="Telefono" class="form-text">direccion como ejido edandial</small>
+    <input readonly asp-for="Correo" type="text" id="Correo"  class="form-control" id="Direccion" aria-describedby="Correo" placeholder="@Model.Correo">
+    <small id="dCorreo" class="form-text">direccion de correo como jhondoe@outlook.com</small>
+    <button class="btn btn-warning" type='button' onclick='editButtonOn("Correo")'>Editar</button>
   </div>
-  <button  asp-action="Index" type="submit" class="btn btn-primary">Hecho</button>
+  <button type="submit" class="btn btn-primary" > Hecho </button>
+  <button  asp-action="Index" class="btn btn-warning">Cancelar</button>
   <!--<button class="btn btn-warning" asp-action="Index">Cancelar</button>
     -->
 </form>

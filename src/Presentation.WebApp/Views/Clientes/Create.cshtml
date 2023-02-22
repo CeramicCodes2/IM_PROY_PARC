@@ -32,7 +32,7 @@ public class Cliente
 -->
 
 
-<div class='container-flow'>
+<div class='container'>
 <form asp-action="Create" enctype="multipart/form-data">
   <div class="form-group">
     <label for="Nombre">Nombre:</label>
@@ -55,7 +55,8 @@ public class Cliente
     <small id="Telefono" class="form-text">direccion como ejido edandial</small>
   </div>
   <button type="submit" class="btn btn-primary">Hecho</button>
-  <button class="btn btn-warning" asp-action="Index">Cancelar</button>
+  <a role='button' class="btn btn-warning" asp-action="Index">Cancelar</a>
 </form>
 </div>
-<a asp-action="Index">Cancelar</a>
+<!--<a asp-action="Index">Cancelar</a>-->
+
