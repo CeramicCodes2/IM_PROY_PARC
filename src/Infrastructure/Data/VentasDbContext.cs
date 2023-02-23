@@ -16,20 +16,38 @@ public class VentasDbContext
     public List<Venta> List()
     {
         var data = new List<Venta>();
-
+        var con = new SqlConnection(_connectionString);
+        var cmd = new SqlCommand("SELECT [Id],[Fecha] FROM [Ventas]",con);
         // ToDo
         try
         {
+            con.Open();
+            var dr = cmd.ExecuteReader();
+            while( dr.Read()){
+                data.Add(
+                    new Venta{
+                        Id = (Guid)dr["Id"],
+                        //ClienteId = (Guid)dr["ClienteId"],
+                        //Cliente = (Cliente)dr["Cliente"],
+                        //ProductoId = (Guid)dr["ProductoId"],
+                        //Producto = (Producto)dr["Producto"],
+                        Fecha = (DateTime)dr["Fecha"]
+                    }
+                );
+            }
+
             // ToDo
             return data;
         }
-        catch (Exception) { throw; }
+        catch (Exception) { 
+            Console.WriteLine("Error de conexion a base de datos en controlador Ventas");
+            throw; }
         finally
         {
+            con.Close();
             // ToDo
         }
     }
-
     public Venta Details(Guid id)
     {
         var data = new Venta();

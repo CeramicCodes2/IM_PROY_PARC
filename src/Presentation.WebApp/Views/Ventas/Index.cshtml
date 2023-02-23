@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Venta";
+}
+@model List<Venta>
+<div class="container">
+    <h1 class="h1 titleGothic">Informacion sobre Ventas:</h1>
+<table class="table table-striped table-dark">
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">ClienteId</th>
+        <th scope="col">ProductoId</th>
+        <th scope="col">Fecha</th>
+        <th scope="col">Acciones</th>
+    </tr>
+    @foreach (var v in Model)
+    {
+        <tr>
+            <th>@v.Id</th>
+            <!--
+            <td>@v.ClienteId</td>
+            <td>@v.ProductoId</td>-->
+            <td>@v.Fecha</td>
+
+            <td>
+                <a asp-action="Details" asp-route-id="@v.Id" role="button" class="btn btn-info">Detalles</a>
+                <a asp-action="Edit" asp-route-id="@v.Id" role="button" class="btn btn-success">Editar</a>
+                <a asp-action="Delete" asp-route-id="@v.Id" role='button' class=' btn btn-danger'>Eliminar</a>
+            </td>
+        </tr>
+    }
+</table>
+
+<p>
+  <a class="btn btn-primary" asp-action="Create" role="button">
+    crear nuevo
+  </a>
+</p>
+</div>
