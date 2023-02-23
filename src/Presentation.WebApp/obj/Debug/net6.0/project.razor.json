@@ -18374,6 +18374,11 @@
   "RootNamespace": "Presentation.WebApp",
   "Documents": [
     {
+      "FilePath": "d:\\IMMAN\\IM_PROY_PARC\\src\\Presentation.WebApp\\Views\\Productos\\Details.cshtml",
+      "TargetPath": "Views\\Productos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\IMMAN\\IM_PROY_PARC\\src\\Presentation.WebApp\\Views\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
@@ -18536,6 +18541,11 @@
     {
       "FilePath": "d:\\IMMAN\\IM_PROY_PARC\\src\\Presentation.WebApp\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\IMMAN\\IM_PROY_PARC\\src\\Presentation.WebApp\\Views\\Productos\\Edit.cshtml",
+      "TargetPath": "Views\\Productos\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

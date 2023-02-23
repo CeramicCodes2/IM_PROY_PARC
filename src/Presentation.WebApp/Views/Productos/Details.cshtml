@@ -1,0 +1,35 @@
+@{ ViewData["Title"] = "Productos > Detalle"; }
+
+@model Producto
+
+<h1>Detalles sobre el producto: @Model.Descripcion</h1>
+
+<div class='container'>
+<form asp-action="Create" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="Id">Id:</label>
+    <input readonly type="text" class="form-control" required id="Id" aria-describedby="Id" placeholder="@Model.Id">
+
+    <small id="dId" class="form-text">Id del producto</small>
+  </div>
+  <div class="form-group">
+    <label for="Descripcion">Descripcion:</label>
+    <input readonly type="text" class="form-control" required id="Descripcion" aria-describedby="Descripcion" placeholder="@Model.Descripcion">
+
+    <small id="dDescripcion" class="form-text">Descripcion como: riko pollo</small>
+  </div>
+  <div class="form-group">
+    <label for="Precio">Precio:</label>
+    <input readonly type="text" required class="form-control" id="Precio" aria-describedby="Precio" placeholder="@Model.Precio">
+    <small id="dPrecio" class="form-text">Precio como 5 pesos</small>
+  </div>
+  <div class="form-group">
+    <label for="Cantidad">Cantidad:</label>
+    <input readonly type="text" required class="form-control" id="Cantidad" aria-describedby="Cantidad" placeholder="@Model.Cantidad">
+    <small id="dCantidad" class="form-text">como 20</small>
+  </div>
+  <button  asp-action="Index" type="submit" class="btn btn-primary">Hecho</button>
+  <!--<button class="btn btn-warning" asp-action="Index">Cancelar</button>
+    -->
+</form>
+</div>
