@@ -7,31 +7,31 @@
 <div class='container'>
 <form asp-action="Create" enctype="multipart/form-data">
   <div class="form-group">
-    <label for="Nombre">Nombre:</label>
-    <input readonly type="text" class="form-control" required id="Nombre" aria-describedby="Nombre" placeholder="@Model.Id">
+    <label for="Id">Id:</label>
+    <input readonly type="text" class="form-control" required id="Id" aria-describedby="Id" placeholder="@Model.Id">
 
-    <small id="Nombre" class="form-text">nombres</small>
+    <small id="dId" class="form-text">Id del usuario</small>
   </div>
   <div class="form-group">
     <label for="Nombre">Nombre:</label>
     <input readonly type="text" class="form-control" required id="Nombre" aria-describedby="Nombre" placeholder="@Model.Nombre">
 
-    <small id="Nombre" class="form-text">nombres</small>
+    <small id="dNombre" class="form-text">nombres</small>
   </div>
   <div class="form-group">
     <label for="Direccion">Direccion:</label>
     <input readonly type="text" required class="form-control" id="Direccion" aria-describedby="Direccion" placeholder="@Model.Direccion">
-    <small id="Direccion" class="form-text">direccion como ejido edandial</small>
+    <small id="dDireccion" class="form-text">direccion como ejido edandial</small>
   </div>
   <div class="form-group">
     <label for="Telefono">Telefono:</label>
     <input readonly type="text" required class="form-control" id="Telefono" aria-describedby="Telefono" placeholder="@Model.Telefono">
-    <small id="Telefono" class="form-text">como 551033293</small>
+    <small id="dTelefono" class="form-text">como 551033293</small>
   </div>
   <div class="form-group">
     <label for="Correo">Correo:</label>
     <input readonly type="text" required class="form-control" id="Direccion" aria-describedby="Correo" placeholder="@Model.Correo">
-    <small id="Telefono" class="form-text">direccion como ejido edandial</small>
+    <small id="dCorroe" class="form-text">direccion de correo como alguien@outlook.com </small>
   </div>
   <button  asp-action="Index" type="submit" class="btn btn-primary">Hecho</button>
   <!--<button class="btn btn-warning" asp-action="Index">Cancelar</button>
