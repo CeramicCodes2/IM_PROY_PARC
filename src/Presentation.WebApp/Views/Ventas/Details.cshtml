@@ -1,0 +1,51 @@
+@{ ViewData["Title"] = "Venta > Detalle"; }
+
+@model Venta
+
+<h1>Detalles sobre el producto: @Model.Id</h1>
+
+<div class='container'>
+<form asp-action="Create" id='main-form' enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="Id">Id:</label>
+    <input readonly type="text" class="form-control" required id="Id" aria-describedby="Id" placeholder="@Model.Id">
+
+    <small id="dId" class="form-text">Id del producto</small>
+  </div>
+  <div class="form-group">
+    <label for="ClienteId">ClienteId:</label>
+    <br>
+    <div class="d-flex column align-items-baseline">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+    <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" onclick="displayInfo('nme')"/>
+    </svg>
+    <input readonly type="text" class="form-control" required id="ClienteId" aria-describedby="ClienteId" placeholder="@Model.ClienteId">
+    </div>
+    <small id="dClienteId" class="form-text">ClienteId como: riko pollo</small>
+  </div>
+  <div class="ml-5">
+  <div id='nme' class="form-group hiddenForm">
+    <label for="Nombre">Nombre:</label>
+    <input readonly type="text" class="form-control" required id="Nombre" aria-describedby="Nombre" placeholder="@Model.Cliente.Nombre">
+    <small id="dNombre" class="form-text">Nombre como: riko pollo</small>
+  </div>
+  </div>
+  <div class="form-group">
+    <label for="ProductoId">ProductoId:</label>
+    <input readonly type="text" required class="form-control" id="ProductoId" aria-describedby="ProductoId" placeholder="@Model.ProductoId">
+    <small id="dProductoId" class="form-text">ProductoId como 5 pesos</small>
+  </div><!--
+  <button  asp-action="Index" type="submit" class="btn btn-primary">Hecho</button>
+  <button class="btn btn-warning" asp-action="Index">Cancelar</button>
+    -->
+</form>
+</div>
+<script>
+
+function displayInfo(IdDiv){
+    // muestra informacion que estaba oculta
+    let dc = document.getElementById(IdDiv);
+    dc.setAttribute("class","form-group");
+
+    }
+</script>
