@@ -16,9 +16,11 @@ public class VentasDbContext
     public List<Venta> List()
     {
         var data = new List<Venta>();
+        //var dataClient new Cliente();
         var con = new SqlConnection(_connectionString);
-        var cmd = new SqlCommand("SELECT [Id],[Fecha] FROM [Ventas]",con);
+        var cmd = new SqlCommand("SELECT [V].[Id],[V].[ClienteId],[V].[ProductoId],[V].[Fecha] FROM [Venta] AS [V] INNER JOIN [Cliente] [C] ON [V].[ClienteId]=[C].[Id] INNER JOIN  [PRODUCTO] AS [P] ON [P].[Id]=[V].[ProductoId]",con);
         // ToDo
+        // SELECT [V].[Id],[V].[ClienteId],[C].[Nombre],[C].[Direccion],[C].[Telefono],[V].[ProductoId],[P].[Descripcion],[P].[Precio],[P].[Cantidad],[V].[Fecha] FROM [Venta] AS [V] INNER JOIN [Cliente] [C] ON [V].[ClienteId]=[C].[Id] INNER JOIN  [PRODUCTO] AS [P] ON [P].[Id]=[V].[ProductoId]
         try
         {
             con.Open();
@@ -27,14 +29,29 @@ public class VentasDbContext
                 data.Add(
                     new Venta{
                         Id = (Guid)dr["Id"],
-                        //ClienteId = (Guid)dr["ClienteId"],
+                        ClienteId = (Guid)dr["ClienteId"],
+                        // cliente secction:
                         //Cliente = (Cliente)dr["Cliente"],
-                        //ProductoId = (Guid)dr["ProductoId"],
+                        ProductoId = (Guid)dr["ProductoId"],
                         //Producto = (Producto)dr["Producto"],
                         Fecha = (DateTime)dr["Fecha"]
                     }
                 );
             }
+            /*
+
+//            
+CREATE TABLE VENTAS(
+    [Id] [UNIQUEIDENTIFIER] NOT NULL,
+    [ClienteId] [UNIQUEIDENTIFIER] NOT NULL,
+    [ProductoId] [UNIQUEIDENTIFIER] NOT NULL,
+    [FECHA] [DATETIME]
+
+);
+-- UNIQUE ME GARANTIZA QUE UN CAMPO NO SE REPITA
+-- 
+-- SEMPRE DECLARAR PRIMERO TODO Y LUEGO GENERAR CONSTRAINTS
+            */
 
             // ToDo
             return data;
