@@ -66,5 +66,6 @@ h2.carouselHeader{
   color:#242323;
 }
 div.hiddenForm{
-  visibility: hidden;
+  /*visibility:collapse;*/
+  display:none;
 }

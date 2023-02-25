@@ -15,19 +15,42 @@
   <div class="form-group">
     <label for="ClienteId">ClienteId:</label>
     <br>
+    
     <div class="d-flex column align-items-baseline">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-    <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" onclick="displayInfo('nme')"/>
+
+    <button  type="button" style='margin-right:3rem' class="btn btn-success" onclick="displayInfo('nme','btnClientsDetails')">
+    <svg id="btnClientsDetails" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+
     </svg>
+    </button>
     <input readonly type="text" class="form-control" required id="ClienteId" aria-describedby="ClienteId" placeholder="@Model.ClienteId">
     </div>
     <small id="dClienteId" class="form-text">ClienteId como: riko pollo</small>
   </div>
   <div class="ml-5">
-  <div id='nme' class="form-group hiddenForm">
+  <div class="nme form-group hiddenForm">
     <label for="Nombre">Nombre:</label>
     <input readonly type="text" class="form-control" required id="Nombre" aria-describedby="Nombre" placeholder="@Model.Cliente.Nombre">
     <small id="dNombre" class="form-text">Nombre como: riko pollo</small>
+  </div>
+
+    <div class="nme form-group hiddenForm">
+    <label for="Direccion">Direccion:</label>
+    <input readonly type="text" class="form-control" required id="Direccion" aria-describedby="Direccion" placeholder="@Model.Cliente.Direccion">
+    <small id="dDireccion" class="form-text">Direccion como: riko pollo</small>
+  </div>
+
+    <div class="nme form-group hiddenForm">
+    <label for="Telefono">Telefono:</label>
+    <input readonly type="text" class="form-control" required id="Telefono" aria-describedby="Telefono" placeholder="@Model.Cliente.Telefono">
+    <small id="dTelefono" class="form-text">Telefono como: riko pollo</small>
+  </div>
+
+    <div class="nme form-group hiddenForm">
+    <label for="Correo">Correo:</label>
+    <input readonly type="text" class="form-control" required id="Correo" aria-describedby="Correo" placeholder="@Model.Cliente.Correo">
+    <small id="dCorreo" class="form-text">Correo como: riko pollo</small>
   </div>
   </div>
   <div class="form-group">
@@ -39,13 +62,105 @@
   <button class="btn btn-warning" asp-action="Index">Cancelar</button>
     -->
 </form>
-</div>
-<script>
 
-function displayInfo(IdDiv){
+</div>
+
+
+
+<script>
+function SetPath(childrens,value){
+  childrens = Object.values(childrens);
+  for(let x of childrens){
+    //let itm = childrens[x]
+    if(x.hasAttribute("class") && x.getAttribute("class").split(" ").indexOf("path") != -1){
+      x.setAttribute("d",value);
+      return 0;
+    }
+  }
+
+}
+
+function stclass(element,oldClass,replaceClass){
+  let vals = element.getAttribute("class");
+  let rray = vals.split(' ');
+  if(rray.indexOf(oldClass) != -1){
+    rray[rray.indexOf(oldClass)] = replaceClass;
+    return rray.join(" ");
+  }else{
+    return vals;
+  }
+}
+
+function addClass(element,newClass){
+    let vals = element.getAttribute("class");
+  let rray = vals.split(' ');
+  rray.push(newClass);
+  return rray.join(" ");
+}
+function invertIfIsHidden(element){
+  // is hidden = true then unhiden 
+  // is hidden = false then hidden
+  if(!(element.hasAttribute("class"))){
+    throw Error('no class attr');
+  }else if(element.getAttribute("class").split(" ").indexOf("hiddenForm") != -1){
+    element.setAttribute('class',stclass(element,'hiddenForm',''));
+    // eliminamos hidden form
+  }else{
+    element.setAttribute('class',addClass(element,'hiddenForm'));//);
+    // a;adimos hiddenform
+  }
+}
+
+function changeIcon(IdButton){
+  /* cambia el icono del boton */
+  let svg = document.getElementById(IdButton);
+  if(svg === null){
+    throw Error('error item no encontrado');
+  }else if(!(svg.hasAttribute('salts')))
+  {
+    //element.setAttribute('class',stclass(element,'hiddenForm',''));//)
+  /*
+  svg.setAttribute("xmlns","http://www.w3.org/2000/svg");
+  svg.setAttribute("width","16");
+  svg.setAttribute("height","16");
+  svg.setAttribute("fill","currentColor");
+  svg.setAttribute("class","bi bi-caret-down");
+  svg.setAttribute("viewBox","0 0 16 16");*/
+  let path = svg.children;// obtenemos el path//document.getElementById(IdPath);
+  // los elementos path usan la clase path para identificarlos
+  //console.log(path);
+  //path.setAttribute("d","M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z");
+  SetPath(path,"M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z");
+  svg.setAttribute("salts",'true');
+
+  //svg.appendChild(path);
+  }
+  else{
+    //element.setAttribute('class',addClass(element,'hiddenForm'));//);
+    // cambiamos el icono al estado anterior
+  //svg.createAttribute("xmlns");
+  let path = svg.children;
+  //path.setAttribute("d","m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z");
+  SetPath(path,"m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z");
+  //svg.appendChild(path);
+  svg.removeAttribute("salts");
+  // re escondemos
+  }
+}
+function displayInfo(IdClass,IdButton){
     // muestra informacion que estaba oculta
-    let dc = document.getElementById(IdDiv);
-    dc.setAttribute("class","form-group");
+    let dc = document.getElementsByClassName(IdClass);
+    let items = Object.values(dc);
+    for(let x of items){
+      //console.log(dc.item(x))
+      //console.log(x);
+      invertIfIsHidden(x);
+      //x.setAttribute("class","form-group");
+      // hacemos visibles elementos ocultos
+      console.log(x);
+    }
+      changeIcon(IdButton);
+    // cambiamos el icono
 
     }
 </script>
