@@ -28,6 +28,9 @@ public class VentasController : Controller
 
     public IActionResult Create()
     {
+        //
+
+        //
         return View();
     }
     [HttpPost]

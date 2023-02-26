@@ -1,0 +1,53 @@
+@model Venta
+<h1 class="h1">
+    Insertar valores:
+</h1>
+<!--
+
+    namespace Domain;
+public class Cliente
+{
+    public Guid Id { get; set; }
+    public string Nombre { get; set; }
+    public string Id { get; set; }
+    public string ClienteId { get; set; }
+    public string ProductoId { get; set; }
+}
+<form asp-action="Create" enctype="multipart/form-data">
+    <label for='name'>Nombre: </label>
+    <input asp-for="Nombre" id='name' type="text" required />
+    <br />
+    <label for="Id"></label>
+    Id: <input asp-for="Edad" type="number" required />
+    <br />
+    Foto: <input type="file" name="file" accept=".jpg,.png,.jpeg,.gif" />
+    <br />
+    <br />
+    <button>Crear</button>
+</form>
+-->
+
+
+<div class='container'>
+<form asp-action="Create" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="ClienteId">ClienteId:</label>
+    <input asp-for="ClienteId" type="text" required class="form-control" id="ClienteId" aria-describedby="ClienteId" placeholder="coloque su ClienteId">
+    <small id="dClienteId" class="form-text">como 200 pesos</small>
+  </div>
+  <div class="form-group">
+    <label for="ProductoId">ProductoId:</label>
+    <input asp-for="ProductoId" type="text" required class="form-control" id="Id" aria-describedby="ProductoId" placeholder="coloque su ProductoId">
+    <small id="dProductoId" class="form-text">ProductoId como 50 en existencia</small>
+  </div>
+    <div class="form-group">
+    <label for="Fecha">Fecha:</label>
+    <input asp-for="Fecha" type="date" required class="form-control" id="Id" aria-describedby="Fecha" placeholder="coloque su Fecha">
+    <small id="dFecha" class="form-text">Fecha como 50 en existencia</small>
+  </div>
+  <button type="submit" class="btn btn-primary">Hecho</button>
+  <a role='button' class="btn btn-warning" asp-action="Index">Cancelar</a>
+</form>
+</div>
+<!--<a asp-action="Index">Cancelar</a>-->
+

@@ -105,19 +105,39 @@ CREATE TABLE VENTAS(
             // ToDo
         }
     }
-
     public void Create(Venta data)
     {
+        var con = new SqlConnection(_connectionString);
+        var com = new SqlCommand("INSERT INTO [VENTA]([ClienteId],[ProductoId],[Fecha]) VALUES (@ClienteId,@ProductoId,@Fecha)",con);
         // ToDo
+        com.Parameters.Add("ClienteId",SqlDbType.UniqueIdentifier).Value = data.ClienteId;
+        com.Parameters.Add("ProductoId",SqlDbType.UniqueIdentifier).Value = data.ProductoId;
+        com.Parameters.Add("Fecha",SqlDbType.DateTime).Value = data.Fecha;
+        // 1) checamos si el id existe
 
+        var ccom = new SqlCommand("SELECT COUNT([Id]) FROM [Cliente] WHERE [Id]=@Id",con);
+        ccom.Parameters.Add("Id",SqlDbType.UniqueIdentifier).Value = data.ClienteId;
+
+        var pcom =  new SqlCommand("SELECT COUNT([Id]) FROM [PRODUCTO] WHERE [Id] = @Id",con);
+        pcom.Parameters.Add("Id",SqlDbType.UniqueIdentifier).Value = data.ProductoId;
         try
         {
+            con.Open();
+            var clientaff = (Int32)ccom.ExecuteScalar();
+            var prodaff = (Int32)pcom.ExecuteScalar();
+            // debe ser 1 si es cero esta mal
+            if(clientaff == 1 & prodaff == 1){
+                com.ExecuteNonQuery();
+                // solo insertamos si los datos existen
+            }
             // ToDo
         }
         catch (Exception) { throw; }
         finally
         {
+            con.Close();
             // ToDo
+
         }
     }
 
@@ -139,14 +159,23 @@ CREATE TABLE VENTAS(
     public void Delete(Guid id)
     {
         // ToDo
+        var con = new SqlConnection(_connectionString);
+        var com = new SqlCommand("DELETE FROM [VENTA] WHERE ID=@Id",con);
+
+        // ToDo
+        com.Parameters.Add("Id",SqlDbType.UniqueIdentifier).Value = id;
+
 
         try
         {
-            // ToDo
+            con.Open();
+            com.ExecuteNonQuery();
+            // ToD1o
         }
         catch (Exception) { throw; }
         finally
         {
+            con.Close();
             // ToDo
         }
     }
