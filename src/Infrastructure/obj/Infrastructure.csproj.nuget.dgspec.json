@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IMMAN\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\IMMAN\\IM_PROY_PARC\\src\\Application\\Application.csproj": {
+    "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IMMAN\\IM_PROY_PARC\\src\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\IMMAN\\IM_PROY_PARC\\src\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\IMMAN\\IM_PROY_PARC\\src\\Application\\obj\\",
+        "projectPath": "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\ispi2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ispi2\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\IMMAN\\IM_PROY_PARC\\src\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\IMMAN\\IM_PROY_PARC\\src\\Domain\\Domain.csproj"
+              "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -81,17 +81,17 @@
         }
       }
     },
-    "D:\\IMMAN\\IM_PROY_PARC\\src\\Domain\\Domain.csproj": {
+    "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IMMAN\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\IMMAN\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\IMMAN\\IM_PROY_PARC\\src\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\ispi2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ispi2\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -148,17 +148,17 @@
         }
       }
     },
-    "D:\\IMMAN\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IMMAN\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\IMMAN\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\IMMAN\\IM_PROY_PARC\\src\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ispi2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ispi2\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -170,8 +170,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\IMMAN\\IM_PROY_PARC\\src\\Application\\Application.csproj": {
-                "projectPath": "D:\\IMMAN\\IM_PROY_PARC\\src\\Application\\Application.csproj"
+              "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Application\\Application.csproj"
               }
             }
           }

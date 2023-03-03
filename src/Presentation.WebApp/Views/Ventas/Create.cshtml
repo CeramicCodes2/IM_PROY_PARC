@@ -2,34 +2,30 @@
 <h1 class="h1">
     Insertar valores:
 </h1>
-<!--
-
-    namespace Domain;
-public class Cliente
-{
-    public Guid Id { get; set; }
-    public string Nombre { get; set; }
-    public string Id { get; set; }
-    public string ClienteId { get; set; }
-    public string ProductoId { get; set; }
-}
-<form asp-action="Create" enctype="multipart/form-data">
-    <label for='name'>Nombre: </label>
-    <input asp-for="Nombre" id='name' type="text" required />
-    <br />
-    <label for="Id"></label>
-    Id: <input asp-for="Edad" type="number" required />
-    <br />
-    Foto: <input type="file" name="file" accept=".jpg,.png,.jpeg,.gif" />
-    <br />
-    <br />
-    <button>Crear</button>
-</form>
--->
-
-
 <div class='container'>
 <form asp-action="Create" enctype="multipart/form-data">
+<label>Cliente ID</label>
+<select class="form-select" aria-label="SELECT CLIENTE ID">
+<option selected>Producto ID</option>
+@foreach (var v in (@List<Cliente>)ViewBag.Cliente){
+<option value="v.Id">@v.Nombre</option>
+}
+<!--
+  <option selected>Cliente ID</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+  -->
+</select>
+<label>Producto ID</label>
+<select class="form-select" aria-label="SELECT PRODUCTO ID">
+  <option selected>Producto ID</option>
+@foreach (var v in (List<Producto>)ViewBag.Producto){
+<option value="@v.Id">@v.Descripcion</option>
+}
+</select>
+  
+  <!--
   <div class="form-group">
     <label for="ClienteId">ClienteId:</label>
     <input asp-for="ClienteId" type="text" required class="form-control" id="ClienteId" aria-describedby="ClienteId" placeholder="coloque su ClienteId">
@@ -39,7 +35,7 @@ public class Cliente
     <label for="ProductoId">ProductoId:</label>
     <input asp-for="ProductoId" type="text" required class="form-control" id="Id" aria-describedby="ProductoId" placeholder="coloque su ProductoId">
     <small id="dProductoId" class="form-text">ProductoId como 50 en existencia</small>
-  </div>
+  </div>-->
     <div class="form-group">
     <label for="Fecha">Fecha:</label>
     <input asp-for="Fecha" type="date" required class="form-control" id="Id" aria-describedby="Fecha" placeholder="coloque su Fecha">
