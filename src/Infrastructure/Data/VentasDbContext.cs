@@ -87,7 +87,7 @@ CREATE TABLE VENTAS(
     {
         var data = new Venta();
         var con = new SqlConnection(_connectionString);
-        var cmd = new SqlCommand("SELECT [V].[Id],[V].[ClienteId],[C].[Nombre],[C].[Direccion],[C].[Correo],[C].[Telefono],[V].[ProductoId],[P].[Descripcion],[P].[Precio],[P].[Cantidad],[V].[Fecha] FROM [Venta] AS [V] INNER JOIN [Cliente] [C] ON [V].[ClienteId]=[C].[Id] INNER JOIN  [PRODUCTO] AS [P] ON [P].[Id]=[V].[ProductoId]",con);
+        var cmd = new SqlCommand("SELECT [V].[Id],[V].[ClienteId],[C].[Nombre],[C].[Direccion],[C].[Correo],[C].[Telefono],[V].[ProductoId],[P].[Descripcion],[P].[Precio],[P].[Cantidad],[V].[Fecha] FROM [Venta] AS [V] INNER JOIN [Cliente] AS [C] ON [V].[ClienteId]=[C].[Id] INNER JOIN  [PRODUCTO] AS [P] ON [P].[Id]=[V].[ProductoId] WHERE [V].[Id]=@Id",con);
         // ToDo
         cmd.Parameters.Add("@Id",SqlDbType.UniqueIdentifier).Value = id;
         try
@@ -163,9 +163,11 @@ CREATE TABLE VENTAS(
     {
         // ToDo
         var con = new SqlConnection(_connectionString);
-        var cmd = new SqlCommand("UPADTE [VENTA] SET [ProductoId]=@ProductoId,[ClienteId]=@ClienteId WHERE [Id]=@Id",con);
+        var cmd = new SqlCommand("UPDATE [VENTA] SET [ProductoId]=@ProductoId,[ClienteId]=@ClienteId,[Fecha]=@Fecha WHERE [Id]=@Id",con);
+        cmd.Parameters.Add("Id",SqlDbType.UniqueIdentifier).Value = data.Id; 
         cmd.Parameters.Add("ProductoId",SqlDbType.UniqueIdentifier).Value = data.ProductoId;
         cmd.Parameters.Add("ClienteId",SqlDbType.UniqueIdentifier).Value = data.ClienteId;
+        cmd.Parameters.Add("Fecha",SqlDbType.DateTime).Value = data.Fecha;
         try
         {
             con.Open();
