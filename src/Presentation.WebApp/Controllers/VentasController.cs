@@ -45,6 +45,7 @@ public class VentasController : Controller
     [HttpPost]
     public IActionResult Create(Venta data)
     {
+        Console.WriteLine(data.ClienteId.ToString());
         _ventasDbContext.Create(data);
         //SmtpClientEmailService.SendEmail(data.Cliente.Correo, "Asunto", $"<h4>Hola {data.Cliente.Nombre}</h1>", true);
         return RedirectToAction("Index");
@@ -52,6 +53,14 @@ public class VentasController : Controller
 
     public IActionResult Edit(Guid id)
     {
+        ViewBag.Cliente = _clientesDbContext.List();
+
+        // viewBag son vareables de sesion se crea una cookie con todo el codigo
+        // se crea una vista las viewbag son vareables de sesion que semandan al cliente
+        // hay varios tipos viewbag viewdata y temp data
+        // esta mas enfocado a js no tando a c#
+        
+        ViewBag.Producto = _productosDbContext.List();
         var data = _ventasDbContext.Details(id);
         return View(data);
     }

@@ -65,7 +65,7 @@ h2.carouselHeader{
   background-color: #838383;
   color:#242323;
 }
-div.hiddenForm{
+.hiddenForm{
   /*visibility:collapse;*/
   display:none;
 }

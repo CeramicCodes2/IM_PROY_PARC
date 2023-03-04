@@ -132,7 +132,6 @@ CREATE TABLE VENTAS(
         com.Parameters.Add("ProductoId",SqlDbType.UniqueIdentifier).Value = data.ProductoId;
         com.Parameters.Add("Fecha",SqlDbType.DateTime).Value = data.Fecha;
         // 1) checamos si el id existe
-
         var ccom = new SqlCommand("SELECT COUNT([Id]) FROM [Cliente] WHERE [Id]=@Id",con);
         ccom.Parameters.Add("Id",SqlDbType.UniqueIdentifier).Value = data.ClienteId;
 
@@ -145,9 +144,10 @@ CREATE TABLE VENTAS(
             var prodaff = (Int32)pcom.ExecuteScalar();
             // debe ser 1 si es cero esta mal
             if(clientaff == 1 & prodaff == 1){
-                com.ExecuteNonQuery();
+               com.ExecuteNonQuery();
                 // solo insertamos si los datos existen
             }
+            //com.ExecuteNonQuery();
             // ToDo
         }
         catch (Exception) { throw; }
@@ -162,14 +162,21 @@ CREATE TABLE VENTAS(
     public void Edit(Venta data)
     {
         // ToDo
-
+        var con = new SqlConnection(_connectionString);
+        var cmd = new SqlCommand("UPADTE [VENTA] SET [ProductoId]=@ProductoId,[ClienteId]=@ClienteId WHERE [Id]=@Id",con);
+        cmd.Parameters.Add("ProductoId",SqlDbType.UniqueIdentifier).Value = data.ProductoId;
+        cmd.Parameters.Add("ClienteId",SqlDbType.UniqueIdentifier).Value = data.ClienteId;
         try
         {
+            con.Open();
+            cmd.ExecuteNonQuery();
+
             // ToDo
         }
         catch (Exception) { throw; }
         finally
         {
+            con.Close();
             // ToDo
         }
     }
