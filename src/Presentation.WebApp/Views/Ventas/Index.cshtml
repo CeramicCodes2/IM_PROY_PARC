@@ -8,7 +8,9 @@
     <tr>
         <th scope="col">Id</th>
         <th scope="col">ClienteId</th>
+        <th scope="col">Nombre</th>
         <th scope="col">ProductoId</th>
+        <th scope="col">Descripcion</th>
         <th scope="col">Fecha</th>
         <th scope="col">Acciones</th>
     </tr>
@@ -17,7 +19,9 @@
         <tr>
             <th>@v.Id</th>
             <td>@v.ClienteId</td>
+            <td>@v.Cliente.Nombre</td>
             <td>@v.ProductoId</td>
+            <td>@v.Producto.Descripcion</td>
             <td>@v.Fecha</td>
 
             <td>

@@ -18,12 +18,18 @@ public class VentasDbContext
         var data = new List<Venta>();
         //var dataClient new Cliente();
         var con = new SqlConnection(_connectionString);
-        var cmd = new SqlCommand("SELECT [V].[Id],[V].[ClienteId],[V].[ProductoId],[V].[Fecha] FROM [Venta] AS [V] INNER JOIN [Cliente] [C] ON [V].[ClienteId]=[C].[Id] INNER JOIN  [PRODUCTO] AS [P] ON [P].[Id]=[V].[ProductoId]",con);
+        //var cmd = new SqlCommand("SELECT [V].[Id],[V].[ClienteId],[V].[ProductoId],[C].[Nombre],[C].[Direccion],[C].[Telefono],[V].[ProductoId],[P].[Descripcion],[P].[Precio],[P].[Cantidad], [V].[Fecha] FROM [Venta] AS [V] INNER JOIN [Cliente] [C] ON [V].[ClienteId]=[C].[Id] INNER JOIN  [PRODUCTO] AS [P] ON [P].[Id]=[V].[ProductoId]",con);
+        var cmd = new SqlCommand("SELECT [V].[Id],[V].[ClienteId],[C].[Nombre],[C].[Direccion],[C].[Correo],[C].[Telefono],[V].[ProductoId],[P].[Descripcion],[P].[Precio],[P].[Cantidad],[V].[Fecha] FROM [Venta] AS [V] INNER JOIN [Cliente] [C] ON [V].[ClienteId]=[C].[Id] INNER JOIN  [PRODUCTO] AS [P] ON [P].[Id]=[V].[ProductoId]",con);
+
+        //[C].[Nombre],[C].[Direccion],[C].[Telefono],[V].[ProductoId],
+        //[P].[Descripcion],[P].[Precio],[P].[Cantidad]
+
         // ToDo
         // SELECT [V].[Id],[V].[ClienteId],[C].[Nombre],[C].[Direccion],[C].[Telefono],[V].[ProductoId],[P].[Descripcion],[P].[Precio],[P].[Cantidad],[V].[Fecha] FROM [Venta] AS [V] INNER JOIN [Cliente] [C] ON [V].[ClienteId]=[C].[Id] INNER JOIN  [PRODUCTO] AS [P] ON [P].[Id]=[V].[ProductoId]
         try
         {
             con.Open();
+            var cData = new Cliente();
             var dr = cmd.ExecuteReader();
             while( dr.Read()){
                 data.Add(
@@ -31,9 +37,21 @@ public class VentasDbContext
                         Id = (Guid)dr["Id"],
                         ClienteId = (Guid)dr["ClienteId"],
                         // cliente secction:
-                        //Cliente = (Cliente)dr["Cliente"],
+                        Cliente = new Cliente{
+                            Id = (Guid)dr["ClienteId"],// convertimos el dato id a guid
+                            Nombre = (string)dr["Nombre"],
+                            Direccion =  (string)dr["Direccion"],
+                            Telefono = (string)dr["Telefono"],
+                            Correo = (string)dr["Correo"]
+                        },
                         ProductoId = (Guid)dr["ProductoId"],
-                        //Producto = (Producto)dr["Producto"],
+                        Producto = new Producto
+                            {
+                                Id = (Guid)dr["ProductoId"],
+                                Descripcion = (string)dr["Descripcion"],
+                                Precio = (decimal)dr["Precio"],
+                                Cantidad = (int)dr["Cantidad"]
+                            },
                         Fecha = (DateTime)dr["Fecha"]
                     }
                 );
