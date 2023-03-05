@@ -9,173 +9,173 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Presentation.WebApp
 build_property.RootNamespace = Presentation.WebApp
-build_property.ProjectDir = C:\Users\ispi2\projects\IMPLANTACION_Y_MANTENIMIENTO\IMPROYBIM\IM_PROY_PARC\src\Presentation.WebApp\
+build_property.ProjectDir = c:\Users\ispi2\projects\IMPLANTACION_Y_MANTENIMIENTO\IMPROYBIM\IM_PROY_PARC\src\Presentation.WebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ispi2\projects\IMPLANTACION_Y_MANTENIMIENTO\IMPROYBIM\IM_PROY_PARC\src\Presentation.WebApp
+build_property.MSBuildProjectDirectory = c:\Users\ispi2\projects\IMPLANTACION_Y_MANTENIMIENTO\IMPROYBIM\IM_PROY_PARC\src\Presentation.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Login.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Logout.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Register.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/_ViewImports.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/_ViewStart.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Clientes/Create.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Clientes/Details.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Clientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Clientes/Edit.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Clientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Clientes/Index.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Empleados/Create.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Empleados/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Empleados/Details.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Empleados/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Empleados/Edit.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Empleados/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Empleados/Index.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Empleados/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Home/Index.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Home/Privacy.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Home/Search.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Home/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Productos/Create.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Productos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Productos/Details.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Productos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Productos/Edit.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Productos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Productos/Index.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Productos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Searcher/Index.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Searcher/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Shared/Error.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Shared/_LoginPartial.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Ventas/Create.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Ventas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Ventas/Details.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Ventas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Ventas/Edit.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Ventas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Ventas/Index.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Ventas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/_ViewImports.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/_ViewStart.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Shared/_Layout.cshtml]
+[c:/Users/ispi2/projects/IMPLANTACION_Y_MANTENIMIENTO/IMPROYBIM/IM_PROY_PARC/src/Presentation.WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rbqrsycjir
