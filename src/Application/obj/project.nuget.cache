@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "qkKb+5EAAVPLF4wxKzDptMCrRWJ4/S72D56IstUvcxLHmBmFtjFtnKDUvjEX8NSJkrvaMDYqPeU1NJBM1m1Uiw==",
+  "dgSpecHash": "V8yD84D4wyIH8eVhaFmyVNYfAon9gA4azFwBlKpSsUpFISATchLWRrUuGYJB5PIZyazounCsnr2MLzrYSDeJsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ispi2\\projects\\IMPLANTACION_Y_MANTENIMIENTO\\IMPROYBIM\\IM_PROY_PARC\\src\\Application\\Application.csproj",
+  "projectFilePath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ispi2\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "C:\\Users\\ispi2\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
-    "C:\\Users\\ispi2\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
-    "C:\\Users\\ispi2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
-    "C:\\Users\\ispi2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }
