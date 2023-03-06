@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\clientes.png",
+      "PackagePath": "staticwebassets\\images\\clientes.png"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\foca.png",
+      "PackagePath": "staticwebassets\\images\\foca.png"
+    },
+    {
       "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\grim-nbc.png",
       "PackagePath": "staticwebassets\\images\\grim-nbc.png"
     },
@@ -25,8 +33,384 @@
       "PackagePath": "staticwebassets\\images\\other-nbc.png"
     },
     {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin.html",
+      "PackagePath": "staticwebassets\\images\\pin.html"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin.png",
+      "PackagePath": "staticwebassets\\images\\pin.png"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\dgkjq2bp",
+      "PackagePath": "staticwebassets\\images\\pin_files"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(1).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(1).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(10).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(10).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(11).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(11).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(12).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(12).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(13).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(13).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(14).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(14).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(15).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(15).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(16).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(16).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(17).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(17).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(18).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(18).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(19).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(19).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(2).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(2).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(20).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(20).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(21).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(21).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(22).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(22).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(23).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(23).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(24).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(24).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(25).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(25).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(26).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(26).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(27).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(27).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(28).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(28).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(29).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(29).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(3).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(3).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(30).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(30).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(31).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(31).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(32).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(32).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(33).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(33).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(34).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(34).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(35).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(35).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(36).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(36).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(37).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(37).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(38).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(38).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(39).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(39).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(4).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(4).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(40).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(40).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(41).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(41).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(42).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(42).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(43).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(43).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(44).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(44).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(45).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(45).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(46).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(46).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(47).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(47).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(48).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(48).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(49).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(49).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(5).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(5).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(50).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(50).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(51).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(51).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(52).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(52).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(53).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(53).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(54).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(54).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(55).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(55).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(56).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(56).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(57).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(57).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(58).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(58).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(59).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(59).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(6).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(6).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(60).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(60).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(61).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(61).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(62).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(62).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(63).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(63).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(64).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(64).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(65).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(65).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(66).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(66).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(67).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(67).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(68).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(68).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(69).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(69).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(7).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(7).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(70).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(70).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(71).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(71).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(72).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(72).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(73).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(73).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(74).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(74).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(75).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(75).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(76).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(76).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(77).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(77).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(78).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(78).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(79).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(79).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(8).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(8).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image(9).webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image(9).webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\image.webp",
+      "PackagePath": "staticwebassets\\images\\pin_files\\image.webp"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\inner.html",
+      "PackagePath": "staticwebassets\\images\\pin_files\\inner.html"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\js",
+      "PackagePath": "staticwebassets\\images\\pin_files"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\m-outer-8cb24ab2d649fd36a488d04d8c457933.js.descarga",
+      "PackagePath": "staticwebassets\\images\\pin_files\\m-outer-8cb24ab2d649fd36a488d04d8c457933.js.descarga"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\m-outer-93afeeb17bc37e711759584dbfc50d47.html",
+      "PackagePath": "staticwebassets\\images\\pin_files\\m-outer-93afeeb17bc37e711759584dbfc50d47.html"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\main.422bd20b.css",
+      "PackagePath": "staticwebassets\\images\\pin_files\\main.422bd20b.css"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\main.7e4d3211.js.descarga",
+      "PackagePath": "staticwebassets\\images\\pin_files\\main.7e4d3211.js.descarga"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\out-4.5.42.js.descarga",
+      "PackagePath": "staticwebassets\\images\\pin_files\\out-4.5.42.js.descarga"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\saved_resource.html",
+      "PackagePath": "staticwebassets\\images\\pin_files\\saved_resource.html"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pin_files\\v3",
+      "PackagePath": "staticwebassets\\images\\pin_files"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\pinos.png",
+      "PackagePath": "staticwebassets\\images\\pinos.png"
+    },
+    {
       "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\placeholder.svg",
       "PackagePath": "staticwebassets\\images\\placeholder.svg"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\productos.png",
+      "PackagePath": "staticwebassets\\images\\productos.png"
     },
     {
       "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\tienda-logo.png",
@@ -39,6 +423,10 @@
     {
       "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\user.svg",
       "PackagePath": "staticwebassets\\images\\user.svg"
+    },
+    {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\images\\ventas.png",
+      "PackagePath": "staticwebassets\\images\\ventas.png"
     },
     {
       "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\js\\site.js",

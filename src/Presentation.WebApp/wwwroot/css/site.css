@@ -21,7 +21,7 @@ html {
 }
 body {
   margin-bottom: 60px;
-  background-color: black;
+  background-color: rgb(19, 19, 19);
   color:white;
 }
 .titleCode{
@@ -35,12 +35,10 @@ body {
 }
 .titleGothic{
   font-family: 'Pirata One', cursive;
-  color:#8c8989;
+  color:#090c4b;
 }
 div.h1PageTitle{
-  background-color:#111010;
   border-radius: 20px;
-  border: 2px solid green;
 }
 div.panelStyle  a{
   text-decoration: none;
@@ -68,4 +66,18 @@ h2.carouselHeader{
 .hiddenForm{
   /*visibility:collapse;*/
   display:none;
+}
+img.backIcon{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: -99999;
+  object-fit: cover;
+  height: 100%;
+}
+div.face{
+  height: 20%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
