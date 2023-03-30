@@ -12,7 +12,32 @@ public class VentasDbContext
     {
         _connectionString = connectionString;
     }
-
+    public List<VentaGraph> getDataGraph(){
+        var data = new List<VentaGraph>();
+     var con = new SqlConnection(_connectionString);
+        var cmd = new SqlCommand("SELECT COUNT([P].[ID]) * [P].[CANTIDAD] operacion FROM [PRODUCTO] [P] INNER JOIN [VENTA] [V] ON V.PRODUCTOID=P.ID GROUP BY [P].[CANTIDAD];",con);
+        try
+        {
+            con.Open();
+            var dr = cmd.ExecuteReader();
+            while( dr.Read()){
+                data.Add(
+                    new VentaGraph{
+                        operacion = (int)dr["operacion"]
+                        }
+                );
+            }
+                    return data;
+        }
+        catch (Exception) { 
+            Console.WriteLine("Error de conexion a base de datos en controlador Ventas");
+            throw; }
+        finally
+        {
+            con.Close();
+            // ToDo
+        }
+    }
     public List<Venta> List()
     {
         var data = new List<Venta>();

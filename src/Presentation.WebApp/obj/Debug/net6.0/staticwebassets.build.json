@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BDZxgfOR/Q2wcmOMVzOuo385BKMf47jFnofg1OjIJhc=",
+  "Hash": "yTTNQkCT/IeuNyopTglf9m5HORwadJu4/2XFjbCCnt8=",
   "Source": "Presentation.WebApp",
   "BasePath": "_content/Presentation.WebApp",
   "Mode": "Default",
@@ -2871,6 +2871,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ventas.png"
+    },
+    {
+      "Identity": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\js\\configs.js",
+      "SourceId": "Presentation.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\",
+      "BasePath": "_content/Presentation.WebApp",
+      "RelativePath": "js/configs.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\configs.js"
     },
     {
       "Identity": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\js\\site.js",

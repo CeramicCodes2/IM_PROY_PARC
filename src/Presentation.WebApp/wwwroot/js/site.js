@@ -32,3 +32,13 @@
     }
     return data;
 }
+function loadConfigurationGraphics(config_name,dataSets){
+    if(KeysConfigs.indexOf(config_name) === -1){
+        throw new Error(' no se encuentra la configuracion de grafica en el archivo de configuraciones')
+    }
+    let msdata = masterConfigs[config_name];
+    msdata.data = dataSets;
+    new Chart(
+        $('#graph'),masterConfigs[config_name]
+    );
+}

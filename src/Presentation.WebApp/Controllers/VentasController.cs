@@ -17,10 +17,18 @@ public class VentasController : Controller
         _clientesDbContext = new ClientesDbContext(configuration.GetConnectionString("DefaultConnection")); 
         _productosDbContext =  new ProductosDbContext(configuration.GetConnectionString("DefaultConnection"));
     }
-
     public IActionResult Index()
     {
         var data = _ventasDbContext.List();
+        ViewBag.LabelsGraph = data
+        .GroupBy(x => x.Producto.Descripcion)
+        .Select(x => $"'{x.Key}'")
+        .ToList();
+        var dprex = _ventasDbContext.getDataGraph();
+        ViewBag.DataPrex = dprex
+        .GroupBy(x => x.operacion)
+        .Select(x=>$"{(int)(x.Key)}")
+        .ToList();
         return View(data);
     }
 

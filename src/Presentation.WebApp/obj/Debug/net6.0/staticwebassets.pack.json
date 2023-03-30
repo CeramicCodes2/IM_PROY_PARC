@@ -429,6 +429,10 @@
       "PackagePath": "staticwebassets\\images\\ventas.png"
     },
     {
+      "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\js\\configs.js",
+      "PackagePath": "staticwebassets\\js\\configs.js"
+    },
+    {
       "Id": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
