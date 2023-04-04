@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Domain\\Domain.csproj": {}
+    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Domain\\Domain.csproj": {
+    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
+        "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Domain\\obj\\",
+        "outputPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

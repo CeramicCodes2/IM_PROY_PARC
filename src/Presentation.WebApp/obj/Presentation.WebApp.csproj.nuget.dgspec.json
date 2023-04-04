@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj": {}
+    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj": {}
   },
   "projects": {
-    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Application\\Application.csproj": {
+    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Application\\Application.csproj",
+        "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Application\\obj\\",
+        "outputPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Domain\\Domain.csproj"
+              "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Domain\\Domain.csproj": {
+    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
+        "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Domain\\obj\\",
+        "outputPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -148,14 +148,14 @@
         }
       }
     },
-    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Infrastructure\\obj\\",
+        "outputPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -170,8 +170,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Application\\Application.csproj": {
-                "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Application\\Application.csproj"
+              "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Application\\Application.csproj": {
+                "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Application\\Application.csproj"
               }
             }
           }
@@ -229,14 +229,14 @@
         }
       }
     },
-    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj": {
+    "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj",
+        "projectUniqueName": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj",
         "projectName": "Presentation.WebApp",
-        "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj",
+        "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\obj\\",
+        "outputPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Presentation.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -251,11 +251,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Application\\Application.csproj": {
-                "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Application\\Application.csproj"
+              "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Application\\Application.csproj": {
+                "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Application\\Application.csproj"
               },
-              "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj"
+              "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

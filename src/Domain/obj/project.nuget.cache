@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6P6BBXqHkK5hASdsn/ip2jF6xPc2wn+Ju5V2/mxQDr6ZNQyzIEW2XhjlGUA7NytbDV6Cp0wAjZ84E0l8MAVrFA==",
+  "dgSpecHash": "wlONcwaytI+1hPe1cGd1Ae8hjuyv7aoLaCPGpH+ASyBQXZu65REQvRBKQt9wq73G4d3C8qK0+SO9ZAQA3BmAhg==",
   "success": true,
-  "projectFilePath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",

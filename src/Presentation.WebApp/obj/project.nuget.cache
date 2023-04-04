@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dK6G3u69skHSNm6qjDB+Y0w+4nvDdkomYdvelYOBGxn80IPuL2t0bL9zpTNLTuGou301u5uN9+cfqXEXJORZnA==",
+  "dgSpecHash": "sWaEfnMtyGwq02zIxggKPp89HNgULkXypEmdYPkLOX9Bgc5JCPg0g8PdbUa4qXdzwsmBw3kl1KYDunfoLn5zOA==",
   "success": true,
-  "projectFilePath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj",
+  "projectFilePath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
