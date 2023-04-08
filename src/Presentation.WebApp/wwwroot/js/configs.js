@@ -12,14 +12,14 @@ let cvdt = {
     {
       extend:'excelHtml5',
       text:'Excel',
-      title:`Ventas recopiladas el ${new Date()}`,
-      sheetName:'Ventas',
+      title:``,
+      sheetName:'',
       autoFiler:true
     },
     {
       extend:'pdfHtml5',
-      title:`Ventas recopiladas el ${new Date()}`,
-      sheetName:'Ventas',
+      title:``,
+      sheetName:'',
       text:'PDF',
       autoFiler:true
     },
@@ -57,6 +57,6 @@ let cvdt = {
 }
 const masterConfigs = {
   'config_ventas':config_ventas,
-  'config_ventas_data_table':cvdt
+  'config_general_data_table':cvdt
 }
 const KeysConfigs = Object.keys(masterConfigs);

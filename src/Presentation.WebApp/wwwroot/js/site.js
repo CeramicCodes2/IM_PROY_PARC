@@ -42,3 +42,11 @@ function loadConfigurationGraphics(config_name,dataSets){
         $('#graph'),masterConfigs[config_name]
     );
 }
+function changeConfigsDataTable(obj,viewName){
+    let x;
+    for(x of obj['buttons']){
+        x['title'] =  `${viewName} recopiladas el ${new Date()}`;
+        x['sheetName'] = viewName;
+
+    }
+}

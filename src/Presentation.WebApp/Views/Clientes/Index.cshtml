@@ -13,9 +13,9 @@
         <th scope="col">acciones</th>
     </tr>
     </thead>
+        <tbody>
     @foreach (var c in Model)
     {
-        <tbody>
         <tr>
             <th>@c.Id</th>
             <td>@c.Nombre</td>
@@ -25,8 +25,8 @@
                 <a asp-action="Delete" asp-route-id="@c.Id" role='button' class=' btn btn-danger'>Eliminar</a>
             </td>
         </tr>
-        </tbody>
     }
+    </tbody>
 </table>
 </div>
 <div class="container justify-items-center">
@@ -38,6 +38,10 @@
 </div>
 @section Scripts{
     <script>
-    let table = $('#clientsCRUD').DataTable();
+            let config =  masterConfigs['config_general_data_table']
+            changeConfigsDataTable(config,'Clientes')
+            let table = $('#clientsCRUD').DataTable(config);
+            table.buttons().container().appendTo('#btn-toolbar .col-md-6:eq(0)');
     </script>
+
 }
