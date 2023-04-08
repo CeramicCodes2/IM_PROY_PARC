@@ -9,15 +9,21 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="~/js/configs.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link href="//cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.css" rel=" stylesheet" type="text/css">
+    <link href="//cdn.datatables.net/buttons/2.0.1/css/buttons.bootstrap5.min.css" rel="stylesheet" type="text/css">
     <!--https://datatables.net/
-    -->
-    <script src="//cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="//cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js" type="text/javascript" charset="utf-8"></script>
 
-    <link href="//cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Presentation.WebApp.styles.css" asp-append-version="true" />
+
+        <script src="//cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="//cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="//cdn.datatables.net/buttons/2.0.1/js/dataTables.buttons.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="//cdn.datatables.net/buttons/2.0.1/js/buttons.bootstrap5.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js" type="text/javascript" charset="utf-8"></script>    -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/Presentation.WebApp.styles.css" asp-append-version="true"/>
 </head>
 <body>
     <header>
@@ -54,12 +60,12 @@
             @RenderBody()
         </main>
     <!--</div>-->
-
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2022 - Presentation.WebApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

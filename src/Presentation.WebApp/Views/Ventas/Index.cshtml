@@ -3,14 +3,8 @@
 }
 @model List<Venta>
 <div class="container">
-    <h1>grafico productos</h1>
-    <canvas id="graph">
-
-    </canvas>
-</div>
-<div class="container">
     <h1 class="h1 titleGothic">Informacion sobre Ventas:</h1>
-<table id="ventasCRUD" class="table table-striped table-dark">
+<table id="ventasCRUD" class="table table-striped table-dark" style="width:100%">
     <thead>
     <tr>
         <th scope="col">Id</th>
@@ -45,12 +39,35 @@
   </a>
 </p>
 </div>
+<div class="container">
+    <h1>grafico productos</h1>
+    <canvas id="graph">
+
+    </canvas>
+</div>
 
 @section Scripts{
+        <script src="//cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="//cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js" type="text/javascript" charset="utf-8"></script>
+        <!-- legacy ? -->
+        <script src="//cdn.datatables.net/buttons/2.0.1/js/dataTables.buttons.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="//cdn.datatables.net/buttons/2.0.1/js/buttons.bootstrap5.min.js" type="text/javascript" charset="utf-8"></script>
+        <!---->
+<link href="https://cdn.datatables.net/v/bs5/jszip-2.5.0/b-2.3.6/b-colvis-2.3.6/b-html5-2.3.6/b-print-2.3.6/datatables.min.css" rel="stylesheet"/>
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/v/bs5/jszip-2.5.0/b-2.3.6/b-colvis-2.3.6/b-html5-2.3.6/b-print-2.3.6/datatables.min.js"></script>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js" type="text/javascript" charset="utf-8"></script>
     <script>
-    let table = $('#ventasCRUD').DataTable();
+                var table = $('#ventasCRUD').DataTable(masterConfigs['config_ventas_data_table']);
+                table.buttons().container().appendTo('#btn-toolbar .col-md-6:eq(0)');
     </script>
     <script>
+
         (function(){
             const data = {
                     labels: [
@@ -65,7 +82,7 @@
                   'rgb(255, 205, 86)',
                   'rgb(201, 203, 207)',
                   'rgb(54, 162, 235)'
-                ]
+                ]//XXX: FIX IT NEED USE INTERPOLATE COLORS FUNCTION
               }]
             };
             loadConfigurationGraphics('config_ventas',data);

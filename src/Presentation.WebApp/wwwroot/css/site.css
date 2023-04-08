@@ -27,7 +27,7 @@ body {
 .titleCode{
   font-family: 'Press Start 2P', cursive;
   font-size: calc(2.375rem + 1.5vw);
-  color:rgb(6, 161, 6);
+  color:rgb(6, 161, 161);
 }
 .textGothic{
   /*text*/
@@ -35,7 +35,7 @@ body {
 }
 .titleGothic{
   font-family: 'Pirata One', cursive;
-  color:#4f4f53;
+  color:#ffffff;
 }
 div.h1PageTitle{
   border-radius: 20px;
