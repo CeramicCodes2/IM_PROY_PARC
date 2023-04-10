@@ -29,13 +29,14 @@ public class VentasController : Controller
         .GroupBy(x => x.operacion)
         .Select(x=>$"{(int)(x.Key)}")
         .ToList();
-        return View(data);
+        return View(data);//view
     }
+
 
     public IActionResult Details(Guid id)
     {
         var data = _ventasDbContext.Details(id);
-        return View(data);
+        return PartialView(data);
     }
     public IActionResult Create()
     {
@@ -70,7 +71,7 @@ public class VentasController : Controller
         
         ViewBag.Producto = _productosDbContext.List();
         var data = _ventasDbContext.Details(id);
-        return View(data);
+        return PartialView(data);
     }
     [HttpPost]
     public IActionResult Edit(Venta data)

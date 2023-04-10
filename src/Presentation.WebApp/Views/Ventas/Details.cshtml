@@ -1,7 +1,9 @@
-@{ ViewData["Title"] = "Venta > Detalle"; }
+@{ ViewData["Title"] = "Venta > Detalle";
+}
 
 @model Venta
 
+<section id="container">
 <h1>Detalles sobre el producto: @Model.Id</h1>
 
 <div class='container'>
@@ -197,3 +199,4 @@ function displayInfo(IdClass,IdButton){
 
     }
 </script>
+</section>

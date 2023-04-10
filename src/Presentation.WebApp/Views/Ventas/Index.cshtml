@@ -2,6 +2,7 @@
     ViewData["Title"] = "Venta";
 }
 @model List<Venta>
+<section id="mainContent">
 <div class="container">
     <h1 class="h1 titleGothic">Informacion sobre Ventas:</h1>
 <table id="ventasCRUD" class="table table-striped table-dark" style="width:100%">
@@ -24,8 +25,8 @@
             <td>@v.Fecha</td>
 
             <td>
-                <a asp-action="Details" asp-route-id="@v.Id" role="button" class="btn btn-info">Detalles</a>
-                <a asp-action="Edit" asp-route-id="@v.Id" role="button" class="btn btn-success">Editar</a>
+                <a onclick="gdt('@v.Id')" role="button" class="btn btn-info">Detalles</a><!--asp-action="Details" asp-route-id="@v.Id" -->
+                <a onclick="gdt('@v.Id')" role="button" class="btn btn-success">Editar</a>
                 <a asp-action="Delete" asp-route-id="@v.Id" role='button' class=' btn btn-danger'>Eliminar</a>
             </td>
         </tr>
@@ -45,13 +46,22 @@
 
     </canvas>
 </div>
-
+</section>
 @section Scripts{
     <script>
             let config =  masterConfigs['config_general_data_table']
             changeConfigsDataTable(config,'ventas')
             let table = $('#ventasCRUD').DataTable(config);
             table.buttons().container().appendTo('#btn-toolbar .col-md-6:eq(0)');
+    </script>
+    <script>
+        function gdt(route){
+            $.ajax(`/Ventas/Details/${route}`)
+                .done(function(data){
+                $("#mainContent").html(data);
+                // llenamos el contenedor con los datos
+            });
+        }
     </script>
     <script>
 
