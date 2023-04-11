@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "wlONcwaytI+1hPe1cGd1Ae8hjuyv7aoLaCPGpH+ASyBQXZu65REQvRBKQt9wq73G4d3C8qK0+SO9ZAQA3BmAhg==",
+  "dgSpecHash": "3upiTwA9E9AKSYMnc2h9bJ69Q69iPGyN43C6yVGHS7+HaMFeAPJ6YVfu9ZmnIrJz5issQqy9V/CM/joQ6BsjTg==",
   "success": true,
-  "projectFilePath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\ispi2\\Downloads\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
-    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+    "C:\\Users\\ispi2\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\ispi2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\ispi2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }

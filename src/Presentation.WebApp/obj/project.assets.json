@@ -10580,19 +10580,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\ispi2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\ispi2\\Downloads\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj",
       "projectName": "Presentation.WebApp",
-      "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Presentation.WebApp\\obj\\",
+      "projectPath": "C:\\Users\\ispi2\\Downloads\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Presentation.WebApp\\Presentation.WebApp.csproj",
+      "packagesPath": "C:\\Users\\ispi2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ispi2\\Downloads\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Presentation.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ispi2\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -10604,11 +10604,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Application\\Application.csproj": {
-              "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Application\\Application.csproj"
+            "C:\\Users\\ispi2\\Downloads\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\ispi2\\Downloads\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Application\\Application.csproj"
             },
-            "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\IMMAN\\IMPROYCONT\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\ispi2\\Downloads\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\ispi2\\Downloads\\IM_PROY_PARC\\IM_PROY_PARC\\src\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
