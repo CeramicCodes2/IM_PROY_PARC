@@ -18,7 +18,7 @@
 
   </div>
   <div class="form-group">
-    <label for="ClienteId">ClienteId:</label>
+    <label for="ClienteId">nombre del cliente:</label>
     <br>
     
     <div class="d-flex column align-items-baseline">
@@ -28,7 +28,7 @@
       <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
     </svg>
     </button>
-    <input readonly type="text" class="form-control" required id="ClienteId" aria-describedby="ClienteId" placeholder="@Model.ClienteId">
+    <input readonly type="text" class="form-control" required id="ClienteId" aria-describedby="ClienteId" placeholder="@Model.Cliente.Nombre">
     </div>
     <small id="dClienteId" class="form-text">ClienteId como: riko pollo</small>
   </div>
@@ -58,14 +58,14 @@
   </div>
   </div>
   <div class="form-group">
-    <label for="ProductoId">ProductoId:</label>
+    <label for="ProductoId">Descripcion del producto:</label>
     <div class="d-flex column align-items-baseline">
       <button  type="button" style='margin-right:3rem' class="btn btn-success" onclick="displayInfo('pnm','btnClientsDetails')">
         <svg id="btnClientsDetails" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
           <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
         </svg>
       </button>
-      <input readonly type="text" required class="form-control" id="ProductoId" aria-describedby="ProductoId" placeholder="@Model.ProductoId">
+      <input readonly type="text" required class="form-control" id="ProductoId" aria-describedby="ProductoId" placeholder="@Model.Producto.Descripcion">
     </div>
     <small id="dProductoId" class="form-text">ProductoId como 5 pesos</small>
   </div>
